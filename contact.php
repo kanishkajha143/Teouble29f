@@ -6,43 +6,7 @@
 
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Placement Portal</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
-    <!-- Favicons -->
-    <link href="img/logo.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-    <!-- Variables CSS Files. Uncomment your preferred color scheme -->
-    <link href="assets/css/variables.css" rel="stylesheet">
-
-
-    <!-- Template Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet">
-
-    <!-- custom css -->
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="st<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-    <title>Placement Portal</title>
+    <title>Trouble29 Placement.AI</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
     <!-- Favicons -->
@@ -73,231 +37,119 @@
     <link rel="stylesheet" href="css/AdminLTE.min.css">
     <link rel="stylesheet" href="css/_all-skins.min.css">
     <link rel="stylesheet" href="assets/css/chat.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+            text-align: center; /* Center align contents */
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .tile {
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            text-align: left; /* Align tile contents to left */
+            margin-bottom: 20px; /* Add margin between tiles */
+        }
+        .tile h2 {
+            color: #007bff;
+        }
+        .tile p {
+            color: #6c757d;
+            display: none; /* Initially hide the paragraph */
+        }
+        .tile img {
+            max-width: 100%;
+            height: auto;
+        }
+        .tile button {
+            margin-top: 10px;
+        }
+        footer {
+            display: none; /* Hide footer */
+        }
+    </style>
 </head>
 
 <body>
 
-    <!-- <header> -->
-
-
-
-    <?php
-
-    include 'php/header.php'
-
-    ?>
-
-
-
-    <!-- </header> -->
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-        <div class="container">
-
-            <div class="section-header">
-                <h2><strong>Contact Us</strong></h2>
-                <p>South Indian Education Society, Nerul.</p>
-            </div>
-
-        </div>
-
-        <div class="map">
-        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Jyothy Institute of Technology&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://mcpedls.com/">Minecraft Download</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:600px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:600px;}.gmap_iframe {width:100%!important;height:600px!important;}</style></div>
-        </div><!-- End Google Maps -->
-
-        <div class="container">
-
-            <div class="row gy-5 gx-lg-5">
-
-                <div class="col-lg-4">
-
-                    <div class="info">
-                        <h3>Get in touch</h3>
-                        <p>PlACEMENT CELL</p>
-
-                        <div class="info-item d-flex">
-                            <i class="bi bi-geo-alt flex-shrink-0"></i>
-                            <div>
-                                <h4>Location:</h4>
-                                <p>South Indian Education Society, Pipeline Rd, near Ravi Shankar Guruji Ashram, Thathaguni, Nerul 560082</p>
-                            </div>
-                        </div><!-- End Info Item -->
-
-                        <div class="info-item d-flex">
-                            <i class="bi bi-envelope flex-shrink-0"></i>
-                            <div>
-                                <h4>Email:</h4>
-                                <p><a href="mailto:rekha.kv.placements@jyothyit.ac.in">sies@gst.ac.in</a></p>
-                            </div>
-                        </div><!-- End Info Item -->
-
-                        <div class="info-item d-flex">
-                            <i class="bi bi-phone flex-shrink-0"></i>
-                            <div>
-                                <h4>Call:</h4>
-                                <p>97428 59408</p>
-                            </div>
-                        </div><!-- End Info Item -->
-
-                    </div>
-
+    <header>
+        <h1 style="font-size: 36px; font-weight: bold; color: #343a40; margin-top: 20px;">Trouble29 Placement.AI</h1>
+    </header>
+    
+    <div class="container mt-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center"> <!-- Center align the content -->
+            <div class="col">
+                <div class="tile">
+                    <h2>Tile 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis massa ut dolor fermentum scelerisque. Nullam vestibulum libero ut arcu sodales, sit amet ultricies mauris fermentum.</p>
+                    <img src="placeholder-image.jpg" alt="Placeholder Image">
+                    <button class="btn btn-primary toggle-paragraph">Show Paragraph</button>
                 </div>
-
-                <div class="col-lg-8">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                            </div>
-                            <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                            </div>
-                        </div>
-                        <div class="form-group mt-3">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                        </div>
-                        <div class="form-group mt-3">
-                            <textarea class="form-control" name="message" placeholder="Message" required></textarea>
-                        </div>
-                        <div class="my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                        </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
-                    </form>
-                </div><!-- End Contact Form -->
-
             </div>
-
+            <div class="col">
+                <div class="tile">
+                    <h2>Tile 2</h2>
+                    <p>Vestibulum tincidunt, orci sed vehicula posuere, purus tortor sodales lacus, vitae pharetra velit dui a metus. Maecenas id libero neque. Proin tempus neque sed lorem fermentum convallis.</p>
+                    <img src="placeholder-image.jpg" alt="Placeholder Image">
+                    <button class="btn btn-primary toggle-paragraph">Show Paragraph</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="tile">
+                    <h2>Tile 3</h2>
+                    <p>Donec at facilisis velit. Duis interdum dolor in tortor viverra lobortis. Mauris id mauris auctor, placerat leo id, mattis libero. In hac habitasse platea dictumst.</p>
+                    <img src="placeholder-image.jpg" alt="Placeholder Image">
+                    <button class="btn btn-primary toggle-paragraph">Show Paragraph</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="tile">
+                    <h2>Tile 4</h2>
+                    <p>Integer at commodo lectus. Cras id libero ut nunc dignissim varius non id libero. In sagittis, magna a ullamcorper vulputate, felis magna accumsan odio, eu aliquet sapien neque at justo.</p>
+                    <img src="placeholder-image.jpg" alt="Placeholder Image">
+                    <button class="btn btn-primary toggle-paragraph">Show Paragraph</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="tile">
+                    <h2>Tile 5</h2>
+                    <p>Curabitur sodales, velit ac viverra fermentum, risus nulla bibendum odio, eget vulputate eros odio vel metus. Duis nec bibendum ante, eu vestibulum libero. Ut ultricies fringilla sapien.</p>
+                    <img src="placeholder-image.jpg" alt="Placeholder Image">
+                    <button class="btn btn-primary toggle-paragraph">Show Paragraph</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="tile">
+                    <h2>Tile 6</h2>
+                    <p>Etiam volutpat sollicitudin enim vel congue. Duis dapibus, nunc eu venenatis tempor, ipsum metus congue lorem, nec convallis magna dolor vel dolor. Aenean vehicula ut ex vel blandit.</p>
+                    <img src="placeholder-image.jpg" alt="Placeholder Image">
+                    <button class="btn btn-primary toggle-paragraph">Show Paragraph</button>
+                </div>
+            </div>
         </div>
-    </section><!-- End Contact Section -->
+    </div>
 
-
-
-    <!-- footer starts -->
-
-    <?php
-
-    include 'php/footer.php';
-    ?>
-    <!-- footer ends -->
-
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const toggleButtons = document.querySelectorAll(".toggle-paragraph");
+            
+            toggleButtons.forEach(function(button) {
+                button.addEventListener("click", function() {
+                    const paragraph = this.parentElement.querySelector("p");
+                    paragraph.style.display = paragraph.style.display === "none" ? "block" : "none";
+                    this.textContent = paragraph.style.display === "none" ? "Show Paragraph" : "Hide Paragraph";
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
-    <link rel="stylesheet" href="css/_all-skins.min.css">
-    <link rel="stylesheet" href="assets/css/chat.css">
-</head>
-
-<body>
-
-    <!-- <header> -->
-
-
-
-    <?php
-
-    include 'php/header.php'
-
-    ?>
-
-
-
-    <!-- </header> -->
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-        <div class="container">
-
-            <div class="section-header">
-                <h2><strong>Contact Us</strong></h2>
-                <p>SIES GST</p>
-            </div>
-
-        </div>
-        <<div class="map">
-            <iframe src="https://maps.app.goo.gl/C8NWCzJj8jufNx4o9" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div><!-- End Google Maps -->
-
-
-        <div class="container">
-
-            <div class="row gy-5 gx-lg-5">
-
-                <div class="col-lg-4">
-
-                    <div class="info">
-                        <h3>Get in touch</h3>
-                        <p>PlACEMENT CELL</p>
-
-                        <div class="info-item d-flex">
-                            <i class="bi bi-geo-alt flex-shrink-0"></i>
-                            <div>
-                                <h4>Location:</h4>
-                                <p>Sri Chandrasekarendra Saraswati Vidyapuram Sector-V, Nerul, Navi Mumbai, Maharashtra 400706</p>
-                            </div>
-                        </div><!-- End Info Item -->
-
-                        <div class="info-item d-flex">
-                            <i class="bi bi-envelope flex-shrink-0"></i>
-                            <div>
-                                <h4>Email:</h4>
-                                <p>sies_gst001@gmail.com</p>
-                            </div>
-                        </div><!-- End Info Item -->
-
-                        <div class="info-item d-flex">
-                            <i class="bi bi-phone flex-shrink-0"></i>
-                            <div>
-                                <h4>Call:</h4>
-                                <p>9992226655</p>
-                            </div>
-                        </div><!-- End Info Item -->
-
-                    </div>
-
-                </div>
-
-                <div class="col-lg-8">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                            </div>
-                            <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                            </div>
-                        </div>
-                        <div class="form-group mt-3">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                        </div>
-                        <div class="form-group mt-3">
-                            <textarea class="form-control" name="message" placeholder="Message" required></textarea>
-                        </div>
-                        <div class="my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                        </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
-                    </form>
-                </div><!-- End Contact Form -->
-
-            </div>
-
-        </div>
-    </section><!-- End Contact Section -->
-
-
-
-    <!-- footer starts -->
-
-    <?php
-
-    include 'php/footer.php';
-    ?>
-    <!-- footer ends -->
-
-</body>
-
-</html>
+        
